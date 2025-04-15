@@ -1,0 +1,20 @@
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white text-center py-6">
+      <div className="flex justify-center gap-6 text-xl mb-2">
+        <a href="#">
+          <FaGithub />
+        </a>
+        <a href="#">
+          <FaTwitter />
+        </a>
+        <a href="#">
+          <FaLinkedin />
+        </a>
+      </div>
+      <p className="text-sm">© 2025 MySite. All rights reserved.</p>
+    </footer>
+  );
+}
