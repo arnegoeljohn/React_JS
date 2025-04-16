@@ -4,13 +4,13 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center py-6">
       <div className="flex justify-center gap-6 text-xl mb-2">
-        <a href="#">
+        <a href="#" className=" hover:text-blue-600">
           <FaGithub />
         </a>
-        <a href="#">
+        <a href="#" className=" hover:text-blue-600">
           <FaTwitter />
         </a>
-        <a href="#">
+        <a href="#" className=" hover:text-blue-600">
           <FaLinkedin />
         </a>
       </div>
